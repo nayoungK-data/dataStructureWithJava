@@ -6,7 +6,8 @@ public class School {
 
     // Constructor
     public School(){
-        people = new ArrayList<>();
+        // this.people instead of people
+        this.people = new ArrayList<>();
     }
     
     void addPerson(Person p){
